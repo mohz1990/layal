@@ -30,16 +30,10 @@
             "type": "items",
             "format": "dropdown-list",
             "label": "طريقة عرض الصور في قسم قائمة عناصر",
-            "description": null,
+            "description": "تظهر هذه الصورة في خلفية البنر الرئيسي للصفحة. يُفضل أن تكون أفقية وعالية الجودة",
             "labelHTML": null,
             "icon": "sicon-list",
-            "selected": [
-                {
-                    "label": "اظهار الصورة كاملةً في المنتصف (Contain)",
-                    "value": "contain",
-                    "key": "f4adec13-6e4c-654b-b978-b2807935ced9"
-                }
-            ],
+            "selected": [],
             "options": [
                 {
                     "label": "تغطية الصورة كامل المساحة مع المحافظة على أبعاد الصورة (Cover)",
@@ -53,7 +47,10 @@
                 }
             ],
             "source": "Manual",
-            "required": true
+            "required": true,
+            "public": true,
+            "searchable": false,
+            "multichoice": false
         },
         {
             "type": "boolean",
