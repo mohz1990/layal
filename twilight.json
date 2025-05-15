@@ -1,23 +1,45 @@
 {
-  "name": "Layal",
-  "description": "ثيم أنيق للمجوهرات والهدايا والإكسسوارات، يتميز بتصميم بسيط ومتجاوب.",
-  "author": "mohz1990",
-  "previewImage": "images/9E116742-09D9-479E-8386-4696A480515E.png",
-  "version": "1.0.0",
-  "sections": ["home", "product", "footer"],
-  "default": {
-    "layout": "default",
-    "home": {
-      "main_title": "مرحباً بكم في متجر ليال",
-      "main_subtitle": "اكتشف أجمل المجوهرات والهدايا",
-      "hero_image": "images/9E116742-09D9-479E-8386-4696A480515E.png"
+    "name": "Layal",
+    "description": "ثيم أنيق للمجوهرات والهدايا والإكسسوارات، يتميز بتصميم بسيط ومتجاوب.",
+    "author": "mohz1990",
+    "previewImage": "images/9E116742-09D9-479E-8386-4696A480515E.png",
+    "version": "1.0.0",
+    "sections": [
+        "home",
+        "product",
+        "footer"
+    ],
+    "default": {
+        "layout": "default",
+        "home": {
+            "main_title": "مرحباً بكم في متجر ليال",
+            "main_subtitle": "اكتشف أجمل المجوهرات والهدايا",
+            "hero_image": "images/9E116742-09D9-479E-8386-4696A480515E.png"
+        },
+        "product": {
+            "show_tags": true,
+            "show_price": true
+        },
+        "footer": {
+            "footer_text": "© 2025 جميع الحقوق محفوظة - متجر ليال"
+        }
     },
-    "product": {
-      "show_tags": true,
-      "show_price": true
-    },
-    "footer": {
-      "footer_text": "© 2025 جميع الحقوق محفوظة - متجر ليال"
-    }
-  }
+    "features": [
+        "mega-menu",
+        "fonts",
+        "component-youtube",
+        "component-store-features",
+        "component-square-photos",
+        "component-testimonials",
+        "component-random-testimonials",
+        "component-parallax-background",
+        "component-products-slider",
+        "component-photos-slider",
+        "component-fixed-products",
+        "component-fixed-banner",
+        "component-featured-products",
+        "unite-cards-height",
+        "breadcrumb",
+        "color"
+    ]
 }
