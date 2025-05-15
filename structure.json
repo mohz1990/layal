@@ -1,0 +1,50 @@
+{
+  "name": "Layal Theme",
+  "sections": {
+    "home": {
+      "name": "الصفحة الرئيسية",
+      "settings": {
+        "main_title": {
+          "type": "text",
+          "label": "العنوان الرئيسي",
+          "default": "مرحبا بكم في متجر ليال"
+        },
+        "main_subtitle": {
+          "type": "text",
+          "label": "الوصف المختصر",
+          "default": "اكتشف أجمل المجوهرات والهدايا"
+        },
+        "hero_image": {
+          "type": "image",
+          "label": "صورة البنر",
+          "default": "images/9E116742-09D9-479E-8386-4696A480515E.png"
+        }
+      }
+    },
+    "product": {
+      "name": "صفحة المنتج",
+      "settings": {
+        "show_tags": {
+          "type": "switch",
+          "label": "إظهار الوسوم",
+          "default": true
+        },
+        "show_price": {
+          "type": "switch",
+          "label": "عرض السعر",
+          "default": true
+        }
+      }
+    },
+    "footer": {
+      "name": "الفوتر",
+      "settings": {
+        "footer_text": {
+          "type": "text",
+          "label": "نص الفوتر",
+          "default": "© 2025 جميع الحقوق محفوظة - متجر ليال"
+        }
+      }
+    }
+  }
+}
