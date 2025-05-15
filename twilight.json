@@ -26,14 +26,20 @@
     ],
     "settings": [
         {
-            "id": "squar_photo_bg_image_size",
+            "id": "hero_image",
             "type": "items",
             "format": "dropdown-list",
             "label": "طريقة عرض الصور في قسم قائمة عناصر",
             "description": "تظهر هذه الصورة في خلفية البنر الرئيسي للصفحة. يُفضل أن تكون أفقية وعالية الجودة",
             "labelHTML": null,
             "icon": "sicon-list",
-            "selected": [],
+            "selected": [
+                {
+                    "label": "اظهار الصورة كاملةً في المنتصف (Contain)",
+                    "value": "contain",
+                    "key": "f4adec13-6e4c-654b-b978-b2807935ced9"
+                }
+            ],
             "options": [
                 {
                     "label": "تغطية الصورة كامل المساحة مع المحافظة على أبعاد الصورة (Cover)",
@@ -65,19 +71,19 @@
         },
         {
             "type": "boolean",
-            "id": "is_more_button_enabled",
+            "id": "more_button_enabled",
             "label": "عرض (زر الكل) في الصفحة الرئيسية",
             "format": "switch"
         },
         {
             "type": "static",
-            "id": "static-line1",
+            "id": "line_1",
             "format": "line"
         },
         {
             "type": "static",
             "format": "title",
-            "id": "static-label2",
+            "id": "top_section_title",
             "value": "خيارات أعلى الصفحة",
             "variant": "h6"
         },
@@ -96,7 +102,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "شريط علوي داكن",
-            "description": null,
+            "description": "فعّل هذا الخيار لتغيير لون الشريط العلوي إلى داكن.",
             "id": "topnav_is_dark",
             "format": "switch",
             "required": false,
@@ -206,7 +212,7 @@
             "icon": "sicon-toggle-off",
             "label": "تكبير الصور في سليدر صور المنتج",
             "description": "هذه الخاصية تمكنك من تكبير الصورة لتسهل رؤية المزيد من التفاصيل بها",
-            "id": "imageZoom",
+            "id": "image_zoom",
             "format": "switch",
             "required": false,
             "value": false,
